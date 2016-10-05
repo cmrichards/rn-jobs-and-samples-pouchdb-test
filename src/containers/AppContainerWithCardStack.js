@@ -91,7 +91,7 @@ class AppContainerWithCardStack extends React.Component {
     case 'job':
       return <Samples job={route.job} database={ database }/>
     case 'job_form':
-      return <MyForm database={ database } />
+      return <JobForm database={ database } />
     case 'sample_form':
       return <SampleForm job={route.job} sample={route.sample} database={ database } />
     }
